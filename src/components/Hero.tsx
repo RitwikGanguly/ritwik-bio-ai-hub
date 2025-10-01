@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Mail, Github, MapPin, ExternalLink } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
+import profileImg from "@/assets/ritwik-profile.jpg";
 
 const Hero = () => {
   return (
@@ -25,13 +26,14 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl text-muted-foreground">
-              Single-cell & Cancer Genomics • Graph Neural Networks • LLMs
+              Single-cell & Cancer Genomics, Graph Neural Networks, Knowledge Graph, Generative Models, LLMs, ML & DL Enthusiastic
             </p>
 
             <p className="text-lg text-foreground/80 leading-relaxed">
-              M.Tech student at IIIT-Delhi researching TNBC subtyping with KG-based GNNs.
-              Building graph-attentive GANs for synthetic scRNA-seq, RAG-enabled systems,
-              and ML pipelines for computational biology.
+              Highly energetic researcher with deep foundations in Computer Science and Computational Biology. 
+              Experienced in single-cell genomics, graph attention-based GANs, and RAG-enabled LLMs. 
+              Currently advancing cancer genomics through heterogeneous GNN architectures, 
+              translating cutting-edge research into computational solutions for biological problems.
             </p>
 
             {/* Quick Info */}
@@ -99,10 +101,12 @@ const Hero = () => {
           <div className="flex justify-center md:justify-end animate-slide-up">
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-3xl blur-3xl" />
-              <div className="relative w-80 h-80 rounded-3xl overflow-hidden border-4 border-primary/20 shadow-elegant bg-gradient-primary">
-                <div className="w-full h-full flex items-center justify-center text-primary-foreground text-6xl font-bold">
-                  RG
-                </div>
+              <div className="relative w-80 h-80 rounded-3xl overflow-hidden border-4 border-primary/20 shadow-elegant">
+                <img 
+                  src={profileImg} 
+                  alt="Ritwik Ganguly - Computational Biologist" 
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
