@@ -26,14 +26,19 @@ const Hero = () => {
             </h1>
 
             <p className="text-xl text-muted-foreground">
-              Single-cell & Cancer Genomics, Graph Neural Networks, Knowledge Graph, Generative Models, LLMs, ML & DL Enthusiastic
+              Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative Models • LLMs • ML & DL Enthusiastic
             </p>
 
             <p className="text-lg text-foreground/80 leading-relaxed">
-              Highly energetic researcher with deep foundations in Computer Science and Computational Biology. 
-              Experienced in single-cell genomics, graph attention-based GANs, and RAG-enabled LLMs. 
-              Currently advancing cancer genomics through heterogeneous GNN architectures, 
-              translating cutting-edge research into computational solutions for biological problems.
+              A highly energetic individual, who aspires to learn new things everyday. Having deep foundations of Computer
+              Science and Computational Biology, I have the experience in single cell genomics and done its synthetic cell
+              generation using graph attention based GAN. Alongside, done the transformer fine-tuning and RAG-enabled LLMs
+              over biomedical knowledge graphs, demonstrates my strong computational and biological foundations. Currently,
+              I'm advancing cancer genomics and multi-omics systems through heterogeneous GNN architectures (HGT, GAT,
+              GCN). With these diverse toolkit, I thrive on translating cutting-edge research in Single Cell, Spatial and Cancer
+              Genomics with computational technology to make the biological problems more tractable. This interdisciplinary
+              knowledge of CS fundamentals and Modern Biology foundation make me a promising candidate for the AI centric
+              Biology research and novel exploration.
             </p>
 
             {/* Quick Info */}
