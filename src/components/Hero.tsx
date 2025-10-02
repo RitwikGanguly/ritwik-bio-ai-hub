@@ -40,7 +40,7 @@ const Hero = () => {
             </p>
             <p className="text-lg text-foreground/80 leading-relaxed mt-4">
               Currently, I am trying to advance the frontiers of cancer and multi-omics data analysis by deploying heterogeneous graph neural networks (HGT, GAT, GCN) and conditional VAEs, with an emphasis on method transparency and interpretability (BayesLIME, GSEA). By integrating these advanced computational tools with modern biological questions in cancer evolution, single-cell and spatial omics, and biomarker discovery, I aim to make complex biological data more tractable and actionable. This interdisciplinary knowledge of CS fundamentals and Modern Biology foundation makes me a promising candidate for the AI centric Biology research and novel exploration.
-
+            </p>
             {/* Quick Info */}
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
