@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Mail, MapPin, Phone, Github, Linkedin } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const { toast } = useToast();
@@ -16,13 +17,34 @@ const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    
+    try {
+      await emailjs.send(
+        'service_nms33b8',
+        'template_l7mlsc2',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
+        },
+        'SeQCKdL0jVdvDZpWV'
+      );
+      
+      toast({
+        title: "Message Sent!",
+        description: "Thank you for reaching out. I'll get back to you soon.",
+      });
+      setFormData({ name: "", email: "", subject: "", message: "" });
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   const references = [
@@ -164,7 +186,7 @@ const Contact = () => {
                   <div>
                     <p className="font-medium text-sm">Location</p>
                     <p className="text-sm text-muted-foreground">
-                      Kolkata, West Bengal, India
+                      New Delhi, Delhi, India
                     </p>
                   </div>
                 </div>
@@ -188,7 +210,7 @@ const Contact = () => {
                 </Button>
                 <Button variant="outline" className="w-full justify-start" asChild>
                   <a
-                    href="https://www.linkedin.com/in/ritwik-ganguly"
+                    href="https://www.linkedin.com/in/ritwikganguly003/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -197,7 +219,7 @@ const Contact = () => {
                   </a>
                 </Button>
                 <Button variant="outline" className="w-full justify-start" asChild>
-                  <a href="#" target="_blank" rel="noopener noreferrer">
+                  <a href="https://orcid.org/0009-0000-4626-3760" target="_blank" rel="noopener noreferrer">
                     <svg
                       className="mr-2 h-4 w-4"
                       fill="currentColor"

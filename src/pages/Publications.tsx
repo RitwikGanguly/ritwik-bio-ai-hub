@@ -61,6 +61,18 @@ const Publications = () => {
       description:
         "LSTM autoencoder with BayesLIME for interpretable anomaly detection in MIMIC-III time series data.",
     },
+    {
+      title: "Factor analysis of single-cell data using knowledge graph based Unsupervised approach",
+      status: "In Preparation",
+      description:
+        "Unsupervised methodology for factor analysis of single-cell data leveraging knowledge graph structures to identify cellular programs and regulatory patterns.",
+    },
+    {
+      title: "Off-target prediction of sequence motif using GNN based generative approach",
+      status: "In Preparation",
+      description:
+        "Graph neural network-based generative model for predicting off-target effects in sequence motifs for CRISPR guide RNA design and safety assessment.",
+    },
   ];
 
   return (

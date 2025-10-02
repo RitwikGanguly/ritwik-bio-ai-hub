@@ -62,6 +62,20 @@ const Code = () => {
       topics: ["NLP", "Chatbot", "Healthcare", "Deep Learning"],
       url: "https://github.com/RitwikGanguly",
     },
+    {
+      name: "scRNA-Factor-Analysis-KG",
+      description: "Factor analysis of single-cell data using knowledge graph based unsupervised approach for identifying cellular programs and regulatory patterns.",
+      language: "Python",
+      topics: ["Knowledge Graph", "scRNA-seq", "Unsupervised Learning", "Factor Analysis", "Neo4j"],
+      url: "https://github.com/RitwikGanguly",
+    },
+    {
+      name: "OffTarget-Motif-Prediction",
+      description: "Off-target prediction of sequence motif using GNN based generative approach for CRISPR guide RNA design and safety assessment.",
+      language: "Python",
+      topics: ["GNN", "Generative Models", "CRISPR", "Sequence Motif", "Drug Discovery"],
+      url: "https://github.com/RitwikGanguly",
+    },
   ];
 
   return (

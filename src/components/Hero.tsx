@@ -45,7 +45,7 @@ const Hero = () => {
             <div className="flex flex-wrap gap-4 text-sm text-muted-foreground">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Kolkata, India</span>
+                <span>New Delhi, Delhi, India</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-primary">•</span>
@@ -87,7 +87,7 @@ const Hero = () => {
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <a
-                  href="https://www.linkedin.com/in/ritwik-ganguly"
+                  href="https://www.linkedin.com/in/ritwikganguly003/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
@@ -103,7 +103,7 @@ const Hero = () => {
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <a
-                  href="https://orcid.org/YOUR-ORCID-ID"
+                  href="https://orcid.org/0009-0000-4626-3760"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="ORCID"
