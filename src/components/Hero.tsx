@@ -35,7 +35,8 @@ const Hero = () => {
 
             <p className="text-lg text-foreground/80 leading-relaxed">
               I am a highly motivated and adaptable computational biologist, passionate about continuous learning and scientific discovery. I bring a strong foundation in computer science and quantitative methods, complemented by deep expertise in single-cell genomics, machine learning, and cancer bioinformatics. My research experience ranges from developing graph attention-based GANs for realistic synthetic single-cell RNA-seq generation—addressing rare-cell detection and batch effects—to transformer fine-tuning and retrieval-augmented generation (RAG) LLMs for knowledge extraction from biomedical graphs.
-
+            </p>
+            <p className="text-lg text-foreground/80 leading-relaxed mt-4">
               Currently, I am advancing the frontiers of cancer and multi-omics data analysis by deploying heterogeneous graph neural networks (HGT, GAT, GCN) and conditional VAEs, with an emphasis on method transparency and interpretability (BayesLIME, GSEA). By integrating these advanced computational tools with modern biological questions in cancer evolution, single-cell and spatial omics, and biomarker discovery, I aim to make complex biological data more tractable and actionable. My interdisciplinary background—spanning Python, R, deep learning, and robust statistical analysis—positions me to contribute to collaborative, AI-driven biology and translational research.
             </p>
 
