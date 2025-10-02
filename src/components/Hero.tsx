@@ -2,6 +2,8 @@ import { Button } from "@/components/ui/button";
 import { Mail, Github, MapPin, ExternalLink } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import profileImg from "@/assets/ritwik-profile.jpg";
+import ResumePDF from "@/assets/Ritwik_Research_Resume_new.pdf";
+
 
 const Hero = () => {
   return (
@@ -65,10 +67,7 @@ const Hero = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-              <a
-                href="https://drive.google.com/drive/u/0/folders/1UNVQkZJ5zWfGIsQTU34saOiO9XDrb3fG"
-                target="_blank"
-                rel="noopener noreferrer">
+              <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
                 <ExternalLink className="mr-2 h-5 w-5" />
                 View Resume (PDF)
               </a>
