@@ -65,7 +65,7 @@ const Hero = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-                <a href="#" download>
+                <a href="https://drive.google.com/drive/u/0/folders/1UNVQkZJ5zWfGIsQTU34saOiO9XDrb3fG">
                   <ExternalLink className="mr-2 h-5 w-5" />
                   View CV (PDF)
                 </a>
