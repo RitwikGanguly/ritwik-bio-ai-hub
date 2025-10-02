@@ -34,15 +34,9 @@ const Hero = () => {
             </p>
 
             <p className="text-lg text-foreground/80 leading-relaxed">
-              A highly energetic individual, who aspires to learn new things everyday. Having deep foundations of Computer
-              Science and Computational Biology, I have the experience in single cell genomics and done its synthetic cell
-              generation using graph attention based GAN. Alongside, done the transformer fine-tuning and RAG-enabled LLMs
-              over biomedical knowledge graphs, demonstrates my strong computational and biological foundations. Currently,
-              I'm advancing cancer genomics and multi-omics systems through heterogeneous GNN architectures (HGT, GAT,
-              GCN). With these diverse toolkit, I thrive on translating cutting-edge research in Single Cell, Spatial and Cancer
-              Genomics with computational technology to make the biological problems more tractable. This interdisciplinary
-              knowledge of CS fundamentals and Modern Biology foundation make me a promising candidate for the AI centric
-              Biology research and novel exploration.
+              I am a highly motivated and adaptable computational biologist, passionate about continuous learning and scientific discovery. I bring a strong foundation in computer science and quantitative methods, complemented by deep expertise in single-cell genomics, machine learning, and cancer bioinformatics. My research experience ranges from developing graph attention-based GANs for realistic synthetic single-cell RNA-seq generation—addressing rare-cell detection and batch effects—to transformer fine-tuning and retrieval-augmented generation (RAG) LLMs for knowledge extraction from biomedical graphs.
+
+              Currently, I am advancing the frontiers of cancer and multi-omics data analysis by deploying heterogeneous graph neural networks (HGT, GAT, GCN) and conditional VAEs, with an emphasis on method transparency and interpretability (BayesLIME, GSEA). By integrating these advanced computational tools with modern biological questions in cancer evolution, single-cell and spatial omics, and biomarker discovery, I aim to make complex biological data more tractable and actionable. My interdisciplinary background—spanning Python, R, deep learning, and robust statistical analysis—positions me to contribute to collaborative, AI-driven biology and translational research.
             </p>
 
             {/* Quick Info */}
