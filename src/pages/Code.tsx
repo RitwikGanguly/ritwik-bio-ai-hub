@@ -71,7 +71,7 @@ const Code = () => {
         <div className="mb-12 animate-fade-in">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-4xl font-bold mb-4">Code & Repositories</h1>
+              <h1 className="text-4xl font-bold mb-4">Projects & Repositories</h1>
               <p className="text-xl text-muted-foreground max-w-3xl">
                 Open-source projects and reproducible research implementations
               </p>

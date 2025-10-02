@@ -8,10 +8,10 @@ const Publications = () => {
     {
       title: "A Graph-Attentive GAN for Rare-Cell–Aware single-cell RNA-seq Data Generation",
       authors: "Ritwik Ganguly, Sumanta Ray, Sk. Md. Mosaddek Hossain",
-      venue: "Preprint",
+      venue: "bioRxiv (Pre-print)",
       year: "2025",
       type: "First Author",
-      status: "Available on bioRxiv",
+      status: "Pre-print Link",
       abstract:
         "We present a novel generative model that combines Graph Attention Networks with GANs to generate synthetic single-cell RNA-seq data with special attention to rare cell populations. Our approach achieves high evaluation metrics (ARI, NMI, macro-F1) on benchmark datasets.",
       links: {
@@ -21,14 +21,27 @@ const Publications = () => {
       },
     },
     {
-      title: "Predicting Compound Toxicity using Deep Learning with Pre-trained Molecular Embeddings",
-      authors: "University of Warsaw BioAI Hackathon Team (including Ritwik Ganguly)",
-      venue: "BioHackrXiv",
+      title: "Mechanism-aware inference of response to targeted cancer therapies",
+      authors: "Co-authors (including Ritwik Ganguly)",
+      venue: "bioRxiv (Pre-print)",
       year: "2025",
       type: "Co-Author",
-      status: "BioAI Hackathon 2025",
+      status: "Pre-print Link",
       abstract:
-        "Leveraged ChemBERTa pre-trained embeddings to predict compound toxicity across multiple Tox21 assays. Built MLP and GNN models with hyperparameter optimization, achieving robust performance in toxicity classification through curve-fitting approaches.",
+        "This work presents a mechanism-aware computational framework for predicting patient response to targeted cancer therapies by integrating multi-omics data and biological pathway knowledge.",
+      links: {
+        paper: "#",
+      },
+    },
+    {
+      title: "All for Computational Biology: Highlights from the first BioAI Hackathon at University of Warsaw",
+      authors: "Co-authors (including Ritwik Ganguly)",
+      venue: "bioHackrXiv",
+      year: "2025",
+      type: "Co-Author",
+      status: "Selected at BioAI Hackathon 2025 @University of Warsaw",
+      abstract:
+        "Highlights and outcomes from the inaugural BioAI Hackathon at University of Warsaw, showcasing collaborative computational biology projects and innovative AI-driven solutions for biological problems.",
       links: {
         paper: "#",
       },
@@ -65,20 +78,20 @@ const Publications = () => {
         <section className="mb-12 grid md:grid-cols-4 gap-4">
           <Card className="animate-fade-in">
             <CardContent className="pt-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-1">3+</div>
+              <div className="text-3xl font-bold text-primary mb-1">3</div>
               <div className="text-sm text-muted-foreground">Total Publications</div>
             </CardContent>
           </Card>
           <Card className="animate-fade-in" style={{ animationDelay: "0.05s" }}>
             <CardContent className="pt-6 text-center">
-              <div className="text-3xl font-bold text-primary mb-1">2</div>
+              <div className="text-3xl font-bold text-primary mb-1">1</div>
               <div className="text-sm text-muted-foreground">First Author</div>
             </CardContent>
           </Card>
           <Card className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
             <CardContent className="pt-6 text-center">
               <div className="text-3xl font-bold text-primary mb-1">2</div>
-              <div className="text-sm text-muted-foreground">In Preparation</div>
+              <div className="text-sm text-muted-foreground">Co-Author</div>
             </CardContent>
           </Card>
           <Card className="animate-fade-in" style={{ animationDelay: "0.15s" }}>
