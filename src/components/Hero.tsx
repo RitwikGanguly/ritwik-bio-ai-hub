@@ -67,7 +67,11 @@ const Hero = () => {
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
-              <a href={ResumePDF} target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://drive.google.com/file/d/1aBxJbYcob3tlt2PDlD9gIcEOvuRS86Xn/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <ExternalLink className="mr-2 h-5 w-5" />
                 View Resume (PDF)
               </a>
