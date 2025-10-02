@@ -21,6 +21,10 @@ const Hero = () => {
               Computational Biologist
             </div>
 
+            <div className="inline-block px-4 py-2 bg-accent rounded-full text-accent-foreground text-sm font-medium">
+              Computational Genomics
+            </div>
+
             <h1 className="text-5xl md:text-6xl font-bold leading-tight">
               Ritwik Ganguly
             </h1>
