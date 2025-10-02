@@ -3,35 +3,25 @@ import ProjectCard from "@/components/ProjectCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRight } from "lucide-react";
-
 const Home = () => {
-  const featuredProjects = [
-    {
-      title: "TNBC Subtype Classification",
-      description:
-        "Multi-omics integration using Knowledge Graph-based GNN for Triple Negative Breast Cancer subtyping. Implemented dual-view GNN with conditional VAE and BayesLIME explainability.",
-      tags: ["GNN", "Multi-omics", "Cancer Genomics", "PyTorch", "VAE"],
-      githubUrl: "https://github.com/RitwikGanguly",
-    },
-    {
-      title: "Graph-Attentive GAN for scRNA-seq",
-      description:
-        "Synthetic single-cell RNA-seq generation with graph attention mechanisms for rare-cell aware data generation. Achieved high ARI, NMI, and macro-F1 scores.",
-      tags: ["GAN", "GAT", "scRNA-seq", "Single-cell", "Deep Learning"],
-      githubUrl: "https://github.com/RitwikGanguly",
-    },
-    {
-      title: "Ask Your PDF",
-      description:
-        "RAG-driven PDF Q&A system using open-source Llama 3.1 models and Ollama embeddings. Restricts model outputs to source documents, eliminating hallucination.",
-      tags: ["RAG", "LLM", "LangChain", "ChromaDB", "NLP"],
-      githubUrl: "https://github.com/RitwikGanguly",
-      demoUrl: "#",
-    },
-  ];
-
-  return (
-    <div>
+  const featuredProjects = [{
+    title: "TNBC Subtype Classification",
+    description: "Multi-omics integration using Knowledge Graph-based GNN for Triple Negative Breast Cancer subtyping. Implemented dual-view GNN with conditional VAE and BayesLIME explainability.",
+    tags: ["GNN", "Multi-omics", "Cancer Genomics", "PyTorch", "VAE"],
+    githubUrl: "https://github.com/RitwikGanguly"
+  }, {
+    title: "Graph-Attentive GAN for scRNA-seq",
+    description: "Synthetic single-cell RNA-seq generation with graph attention mechanisms for rare-cell aware data generation. Achieved high ARI, NMI, and macro-F1 scores.",
+    tags: ["GAN", "GAT", "scRNA-seq", "Single-cell", "Deep Learning"],
+    githubUrl: "https://github.com/RitwikGanguly"
+  }, {
+    title: "Ask Your PDF",
+    description: "RAG-driven PDF Q&A system using open-source Llama 3.1 models and Ollama embeddings. Restricts model outputs to source documents, eliminating hallucination.",
+    tags: ["RAG", "LLM", "LangChain", "ChromaDB", "NLP"],
+    githubUrl: "https://github.com/RitwikGanguly",
+    demoUrl: "#"
+  }];
+  return <div>
       <Hero />
 
       {/* Featured Research Section */}
@@ -45,15 +35,11 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-            {featuredProjects.map((project, index) => (
-              <div
-                key={project.title}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
+            {featuredProjects.map((project, index) => <div key={project.title} className="animate-fade-in" style={{
+            animationDelay: `${index * 0.1}s`
+          }}>
                 <ProjectCard {...project} />
-              </div>
-            ))}
+              </div>)}
           </div>
 
           <div className="text-center">
@@ -83,7 +69,7 @@ const Home = () => {
 
             <Card className="border-primary/20">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">3+</div>
+                <div className="text-4xl font-bold text-primary mb-2">3</div>
                 <h3 className="font-semibold mb-2">Publications</h3>
                 <p className="text-sm text-muted-foreground">
                   First author papers in computational biology and ML
@@ -126,8 +112,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
