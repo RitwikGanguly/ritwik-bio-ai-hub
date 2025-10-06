@@ -40,9 +40,9 @@ const Hero = () => {
   const [dailyQuote, setDailyQuote] = useState(quotes[0]);
 
   useEffect(() => {
-    // Get quote based on day of year for consistency
-    const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
-    setDailyQuote(quotes[dayOfYear % quotes.length]);
+    // Get random quote on each page refresh
+    const randomIndex = Math.floor(Math.random() * quotes.length);
+    setDailyQuote(quotes[randomIndex]);
   }, []);
 
   return (
