@@ -65,7 +65,7 @@ const Hero = () => {
 
             {/* Expertise */}
             <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-medium">
-              Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative Models • LLMs • ML & DL Enthusiastic
+              Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative Models • LLMs • Agentic AI •ML & DL Enthusiastic
             </p>
 
             {/* Quick Info */}
