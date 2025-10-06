@@ -26,19 +26,19 @@ const Hero = () => {
   return (
     <section className="relative">
       {/* Background Hero Section with Quote */}
-      <div className="relative h-[400px] overflow-hidden">
+      <div className="relative h-[250px] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: `url(${backgroundImg})` }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-background" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-background" />
         
-        <div className="container mx-auto px-4 h-full flex items-center justify-center relative z-10">
-          <div className="text-center text-white max-w-4xl animate-fade-in">
-            <p className="text-2xl md:text-3xl font-light italic mb-4">
+        <div className="container mx-auto px-4 h-full flex items-end pb-8 relative z-10">
+          <div className="text-center text-white max-w-4xl mx-auto animate-fade-in">
+            <p className="text-xl md:text-2xl font-light italic mb-3">
               "{dailyQuote.text}"
             </p>
-            <p className="text-lg md:text-xl opacity-90">— {dailyQuote.author}</p>
+            <p className="text-base md:text-lg opacity-90">— {dailyQuote.author}</p>
           </div>
         </div>
       </div>
@@ -59,12 +59,12 @@ const Hero = () => {
             </div>
 
             {/* Name */}
-            <h1 className="text-5xl md:text-7xl font-bold leading-tight bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
+            <h1 className="text-5xl md:text-7xl font-extrabold leading-tight text-foreground">
               Ritwik Ganguly
             </h1>
 
             {/* Expertise */}
-            <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+            <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-medium">
               Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative Models • LLMs • ML & DL Enthusiastic
             </p>
 
