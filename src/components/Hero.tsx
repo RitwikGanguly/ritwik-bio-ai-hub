@@ -11,8 +11,30 @@ const quotes = [
   { text: "The important thing is not to stop questioning. Curiosity has its own reason for existing.", author: "Albert Einstein" },
   { text: "Research is what I'm doing when I don't know what I'm doing.", author: "Wernher von Braun" },
   { text: "Science knows no country, because knowledge belongs to humanity.", author: "Louis Pasteur" },
-  { text: "The good thing about science is that it's true whether or not you believe in it.", author: "Neil deGrasse Tyson" }
+  { text: "The good thing about science is that it's true whether or not you believe in it.", author: "Neil deGrasse Tyson" },
+
+  { text: "The only way to do great work is to love what you do.", author: "Steve Jobs" },
+  { text: "Success is not final, failure is not fatal: it is the courage to continue that counts.", author: "Winston Churchill" },
+  { text: "Don't watch the clock; do what it does. Keep going.", author: "Sam Levenson" },
+  { text: "The future belongs to those who believe in the beauty of their dreams.", author: "Eleanor Roosevelt" },
+  { text: "You miss 100% of the shots you don't take.", author: "Wayne Gretzky" },
+  { text: "Act as if what you do makes a difference. It does.", author: "William James" },
+  { text: "What you get by achieving your goals is not as important as what you become by achieving your goals.", author: "Zig Ziglar" },
+  { text: "Believe you can and you're halfway there.", author: "Theodore Roosevelt" },
+  { text: "It does not matter how slowly you go as long as you do not stop.", author: "Confucius" },
+  { text: "Hardships often prepare ordinary people for an extraordinary destiny.", author: "C.S. Lewis" },
+  { text: "The best way to predict the future is to create it.", author: "Peter Drucker" },
+  { text: "Don't be afraid to give up the good to go for the great.", author: "John D. Rockefeller" },
+  { text: "I find that the harder I work, the more luck I seem to have.", author: "Thomas Jefferson" },
+  { text: "Start where you are. Use what you have. Do what you can.", author: "Arthur Ashe" },
+  { text: "Perfection is not attainable, but if we chase perfection we can catch excellence.", author: "Vince Lombardi" },
+  { text: "The only limit to our realization of tomorrow will be our doubts of today.", author: "Franklin D. Roosevelt" },
+  { text: "Do not wait to strike till the iron is hot; but make it hot by striking.", author: "William Butler Yeats" },
+  { text: "Aim for the moon. If you miss, you may hit a star.", author: "W. Clement Stone" },
+  { text: "Keep your face always toward the sunshine—and shadows will fall behind you.", author: "Walt Whitman" },
+  { text: "You will face many defeats in life, but never let yourself be defeated.", author: "Maya Angelou" }
 ];
+
 
 const Hero = () => {
   const [dailyQuote, setDailyQuote] = useState(quotes[0]);
