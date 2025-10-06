@@ -20,6 +20,34 @@ const Research = () => {
       githubUrl: "https://github.com/RitwikGanguly",
     },
     {
+      title: "Factor analysis of single-cell data using knowledge graph based Unsupervised approach",
+      description:
+        "Unsupervised knowledge graph-based framework for factor analysis in single-cell data. Integrates biological pathways and gene interactions to identify latent factors and cell-type specific patterns without prior annotations.",
+      tags: ["Knowledge Graph", "Single-cell", "Unsupervised Learning", "Factor Analysis", "Bioinformatics"],
+      githubUrl: "https://github.com/RitwikGanguly",
+    },
+    {
+      title: "Off-target prediction of sequence motif using GNN based generative approach",
+      description:
+        "Graph Neural Network-based generative model for predicting off-target effects in sequence motifs. Leverages structural representations of DNA sequences and protein binding sites to identify potential off-target binding patterns.",
+      tags: ["GNN", "Generative Model", "Off-target Prediction", "Sequence Motif", "CRISPR", "Deep Learning"],
+      githubUrl: "https://github.com/RitwikGanguly",
+    },
+    {
+      title: "QNAKG: Question-Answering of Bio-Medical Knowledge Graph using RAG-enabled Large Language Model",
+      description:
+        "Retrieval Augmented Generation system for biomedical knowledge graphs enabling natural language question answering. Combines graph structure traversal with LLM reasoning to provide accurate, citation-backed answers from structured biomedical databases.",
+      tags: ["RAG", "LLM", "Knowledge Graph", "Question-Answering", "Biomedical", "NLP"],
+      githubUrl: "https://github.com/RitwikGanguly",
+    },
+    {
+      title: "Mental Health Counseling Summarization",
+      description:
+        "NLP system for automated summarization of mental health counseling dialogues using MEMO_KDD_2022 dataset. Explores T5-base/large and MentalLLama (Llama 2-based) fine-tuning with QLoRA for domain-specific understanding. Achieves significant improvements in BLEU, ROUGE, and BERTScore metrics, providing concise summaries that capture patient concerns and clinical insights.",
+      tags: ["NLP", "T5", "Llama", "Mental Health", "Summarization", "QLoRA", "PEFT", "Healthcare"],
+      githubUrl: "https://github.com/RitwikGanguly",
+    },
+    {
       title: "Bayesian Explainability for Anomaly Detection",
       description:
         "LSTM autoencoder with BayesLIME for explainable anomaly detection in medical time series. Achieved 98% anomaly detection accuracy on MIMIC-III validation dataset.",
