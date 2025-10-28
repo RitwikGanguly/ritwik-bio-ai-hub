@@ -111,7 +111,7 @@ const Hero = () => {
               <Button size="lg" asChild className="shadow-elegant">
                 <a href="mailto:ritwik24222@iiitd.ac.in">
                   <Mail className="mr-2 h-5 w-5" />
-                  Contact for PhD
+                  Contact
                 </a>
               </Button>
               <Button size="lg" variant="outline" asChild>
