@@ -128,48 +128,68 @@ const Hero = () => {
 
             {/* Social Links */}
             <div className="flex gap-4 pt-2">
-              <Button variant="ghost" size="icon" asChild>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="h-14 w-14 rounded-full border-2 hover:scale-110 hover:border-primary hover:bg-primary/10 transition-all duration-300" 
+                asChild
+              >
                 <a
                   href="https://github.com/RitwikGanguly"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="GitHub"
                 >
-                  <Github className="h-5 w-5" />
+                  <Github className="h-7 w-7" />
                 </a>
               </Button>
-              <Button variant="ghost" size="icon" asChild>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="h-14 w-14 rounded-full border-2 hover:scale-110 hover:border-primary hover:bg-primary/10 transition-all duration-300" 
+                asChild
+              >
                 <a
                   href="https://www.linkedin.com/in/ritwikganguly003/"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
                   </svg>
                 </a>
               </Button>
-              <Button variant="ghost" size="icon" asChild>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="h-14 w-14 rounded-full border-2 hover:scale-110 hover:border-primary hover:bg-primary/10 transition-all duration-300" 
+                asChild
+              >
                 <a
                   href="https://orcid.org/0009-0000-4626-3760"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="ORCID"
                 >
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 7.15c.467 0 .847.38.847.846 0 .467-.38.846-.847.846-.466 0-.846-.38-.846-.846 0-.466.38-.846.846-.846zm-.846 3.385h1.692v7.615H6.523v-7.615zm3.692 0h1.692v.923h.023c.236-.446.813-.923 1.692-.923 1.812 0 2.146 1.192 2.146 2.741v3.874h-1.692v-3.385c0-.631-.012-1.442-.879-1.442-.88 0-1.014.687-1.014 1.397v3.43h-1.692v-7.615h.024z"/>
                   </svg>
                 </a>
               </Button>
-              <Button variant="ghost" size="icon" asChild>
+              <Button 
+                variant="outline" 
+                size="lg" 
+                className="h-14 w-14 rounded-full border-2 hover:scale-110 hover:border-primary hover:bg-primary/10 transition-all duration-300" 
+                asChild
+              >
                 <a
                   href="https://medium.com/@ritwikganguly"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="Medium"
                 >
-                  <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                  <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
                     <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
                   </svg>
                 </a>
