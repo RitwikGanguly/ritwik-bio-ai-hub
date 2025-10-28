@@ -161,15 +161,15 @@ const Home = () => {
       <section className="py-20 bg-gradient-primary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4 text-primary-foreground">
-            Seeking PhD Opportunities
+            Seeking for Research and PhD Opportunities
           </h2>
           <p className="text-lg mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-            Looking for PhD positions in computational genomics, AI for biology, and multi-omics integration.
-            Open to collaborations in graph-based learning and generative models.
+            Looking for PhD positions in computational genomics, single-cell genomics, spatial multi-omics, AI for biology, and multi-omics integration.
+            Open to collaborations in graph-based deep learning, generative models and AI-Agent in biomedical research.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
-              <a href="/contact">Get in Touch</a>
+              <a href="/contact">Contact</a>
             </Button>
             <Button size="lg" variant="outline" className="bg-transparent border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10" asChild>
               <a href="#" download>
