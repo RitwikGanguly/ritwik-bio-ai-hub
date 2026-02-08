@@ -124,6 +124,16 @@ const Hero = () => {
                   View Resume
                 </a>
               </Button>
+              <Button size="lg" variant="outline" asChild>
+                <a
+                  href="https://drive.google.com/file/d/11qkUHXiduFyNu0kF34gbjlVjr7QdygoG/view?usp=drive_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <ExternalLink className="mr-2 h-5 w-5" />
+                  Research Presentation
+                </a>
+              </Button>
             </div>
 
             {/* Social Links */}
