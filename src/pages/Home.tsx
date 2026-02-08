@@ -20,9 +20,9 @@ const Home = () => {
     tags: ["LSTM", "Bayesian", "Explainable AI", "Medical", "Anomaly Detection"],
     githubUrl: "https://github.com/RitwikGanguly"
   }, {
-    title: "Triple-negative Breast Cancer (TNBC) SubType Classification using KG-based Duel-view GNN Approach",
-    description: "Multi-omics integration using Knowledge Graph-based GNN for Triple Negative Breast Cancer subtyping with dual-view architecture.",
-    tags: ["GNN", "Multi-omics", "Cancer Genomics", "Knowledge Graph", "PyTorch"],
+    title: "Quantifying Biological Uncertainty in TNBC Subtype Classification: A Network-Informed Generative Framework",
+    description: "MTech thesis on Triple-Negative Breast Cancer subtyping using multi-omics integration (microarray, RNA-seq, methylation, CNV), GNN-based gene embeddings, cVAE generative model, and BayeSHAP uncertainty estimation for biomarker discovery. Manuscript in preparation.",
+    tags: ["GNN", "Multi-omics", "cVAE", "BayeSHAP", "TNBC", "Cancer Genomics"],
     githubUrl: "https://github.com/RitwikGanguly"
   }];
   return <div>
