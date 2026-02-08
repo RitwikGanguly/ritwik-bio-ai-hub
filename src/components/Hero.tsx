@@ -73,10 +73,10 @@ const Hero = () => {
             {/* Tags */}
             <div className="flex flex-wrap gap-3">
               <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary text-sm font-medium">
-                Computational Biologist
+                Computational Biology
               </div>
               <div className="px-4 py-2 bg-primary/10 border border-primary/20 rounded-full text-primary text-sm font-medium">
-                Computational Genomics
+                AI-driven Biological Discovery
               </div>
             </div>
 
@@ -87,7 +87,7 @@ const Hero = () => {
 
             {/* Expertise */}
             <p className="text-xl md:text-2xl text-foreground/80 leading-relaxed font-medium">
-              Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative Models • LLMs • Agentic AI • ML & DL Enthusiastic
+              Single-cell & Cancer Genomics • Graph Neural Networks • Knowledge Graph • Generative AI • LLMs • Agentic AI • ML & DL Enthusiastic
             </p>
 
             {/* Quick Info */}
