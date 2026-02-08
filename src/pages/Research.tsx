@@ -6,10 +6,10 @@ import { Mail } from "lucide-react";
 const Research = () => {
   const researchProjects = [
     {
-      title: "TNBC Subtype Classification using KG + GNN",
+      title: "Quantifying Biological Uncertainty in TNBC Subtype Classification: A Network-Informed Generative Framework",
       description:
-        "Multi-omics integration (microarray, RNA-seq, methylation, CNV) for Triple Negative Breast Cancer subtyping using Knowledge Graph-based dual-view GNN. Implemented conditional VAE and BayesLIME explainability for interpretable predictions.",
-      tags: ["GNN", "Multi-omics", "Cancer Genomics", "Knowledge Graph", "PyTorch", "VAE", "Explainable AI"],
+        "MTech thesis on the most heterogeneous breast cancer — TNBC — which lacks ER, PR & HER2 receptors, making it unresponsive to targeted therapies. Integrated 4 omics (microarray, RNA-seq, methylation, CNV) with subtype mapping (BL1/BL2/LAR/M). Performed GSEA and Reference Component Analysis (RCA) for subtype-specific pathway & cell-type validation. Used GNN-based gene embeddings capturing neighborhood context, a Conditional VAE (cVAE) generative model for classification, and BayeSHAP for uncertainty estimation of retrieved biomarkers. Manuscript in preparation.",
+      tags: ["GNN", "Multi-omics", "cVAE", "BayeSHAP", "TNBC", "GSEA", "Cancer Genomics"],
       githubUrl: "https://github.com/RitwikGanguly",
     },
     {
